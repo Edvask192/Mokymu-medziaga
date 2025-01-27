@@ -1,0 +1,104 @@
+.display-block{
+    display: flex;
+}
+
+header{
+    background-color: #000000;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 20px;
+}
+
+.header-links{
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+    font-family: Montserrat;
+    font-size: 19px;
+    font-weight: 800;
+    width: 20%;
+    text-align: center;
+}
+
+main{
+    background-image: url("../img/background-img.png"), linear-gradient(rgba(255,255,255, 0.5), rgba(255,255,255, 0.5));
+    background-blend-mode: overlay;
+    background-repeat: repeat;
+    background-size: 40% 40%;
+}
+
+
+#main-container{
+display: flex;
+color: white;
+flex-direction: column;
+align-items: center;
+background-color: black;
+margin: 0 auto;
+width: 80%;
+height: 700px;
+}
+
+.main-title{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 65px;
+    padding: 20px 0 0 0;
+}
+
+.main-text{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 0 40px 0;
+}
+
+
+.block-container{
+    background-color: #000000;
+}
+
+.block1{
+    border: 3px white solid;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.vanilla-photo{
+    width: 90px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.block-title{
+    font-family: Montserrat;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
+.block-line{
+    padding: 10px 0 10px 0;
+}
+
+.block-text{
+    font-family: Montserrat;
+    width: 200px;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
+.block-button{
+    font-family: Montserrat;
+    font-weight: 800;
+    font-size: 15px;
+    color: #9661E8;
+    text-decoration: none;
+    padding: 30px 0 10px 0;
+}

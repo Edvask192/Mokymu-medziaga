@@ -1,0 +1,38 @@
+.eile1, .eile2, .eile3, .eile4, .eile5{
+    display: flex;
+    height: 300px;
+    padding: 20px 20px;
+}
+
+.eile1{
+    background-color: #ffa500;
+    
+}
+
+.eile2{
+    background-color: #8fbc8f;
+    justify-content: flex-end;
+}
+
+.eile3{
+    background-color: #ff8c00;
+    justify-content: start;
+    align-items: center;
+}
+
+.eile4{
+    background-color: #00ced1;
+    justify-content: center;
+    align-items: center;
+}
+
+.eile5{
+    background-color: #dc143c;
+    justify-content: end;
+    align-items: end;
+}
+
+p{
+    background-color: white;
+    width: 250px;
+}

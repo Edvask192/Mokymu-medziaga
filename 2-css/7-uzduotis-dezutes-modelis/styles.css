@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(128, 128, 128, 0.3);
+}
+
+div{
+    background-color: yellow;
+    max-width: 80%;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+#antras{
+    padding: 5em;
+}
+
+#trecias{
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+#ketvirtas{
+    padding-top: 0;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-bottom: 5em;
+}
+
+#penktas{
+    padding: 0, 0, 5em, 0;
+}
+
+.pirmas-blokas{
+    border: 12px solid green;
+    box-shadow: 5px 5px 15px black;
+}
+
+.antras-blokas{
+    border-radius: 150px;
+    box-shadow: 0 0 50px rgb(0, 0, 0, 0.5);
+}
+
+.trecias-blokas{
+    border-bottom: 10px solid blue;
+    border-right: 15px dashed red;
+}
+
+.ketvirtas-blokas{
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 50px;
+}
+
+.penktas-blokas{
+    border-left: 10px dashed orange;
+}
+

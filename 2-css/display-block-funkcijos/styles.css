@@ -1,0 +1,10 @@
+form input{
+    display: block;
+}
+
+form{
+    background-color: #ff7f50;
+    width: 500px;
+    padding: 1em;
+}
+

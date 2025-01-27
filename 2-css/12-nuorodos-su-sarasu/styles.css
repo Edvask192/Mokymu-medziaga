@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+
+.page-container{
+    text-align: center;
+}
+
+li{
+    display: inline;
+    margin: 0 10px;
+    border-color: white;
+}
+
+li:hover{
+    color: blue;
+    border: 2px;
+    border-color: white;
+
+}
+
+.background-img{
+    background-image: url(images/shore-top-down.jpg);
+    height: 400px;
+    background-size: cover;
+}
+
+h2 span{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.main{
+    position: relative;
+}

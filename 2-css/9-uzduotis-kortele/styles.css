@@ -1,0 +1,102 @@
+body{
+    background-color: rgb(128, 128, 128, 0.3);
+}
+
+.blokas1, .blokas2, .blokas3, .blokas4, .blokas5, .blokas6{
+    background-color: white;
+    width: 329px;
+    height: 477px;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#img-fox, #img-hands, #img-japanese, #img-mountain, #img-portrait, #img-woman-sand{
+    width: 329px;
+    height: 214px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;  
+    object-fit: cover;
+}
+
+
+h1{
+    width: 140px;
+    height: 36px;
+    font-family: Poppins;
+    font-weight: 700;
+    size: 24px;
+    line-height: 36px;
+    color: black;
+    margin: left;
+}
+
+p{
+    width: 265px;
+    height: 80px;
+    font-family: Nokora;
+    font-weight: 400;
+    size: 12px;
+    line-height: 15.86px;
+    margin-bottom: 35px;
+}
+
+button{
+    width: 127px;
+    height: 31px;
+    border: 2 #0E385C;
+    padding: 8px 16px 8px 16px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 11px;
+    background-color: white;
+    margin: 20px 0px 20px 0px;
+}
+
+button:hover{
+    background-color: rgb(14, 56, 92, 0.4);
+    transition-duration: 0.5s;
+    color: white;
+    
+}
+
+.blokas1:hover{
+    box-shadow: 0px 0px 30px #000000;
+    transition-duration: 500ms;
+}
+
+.blokas2:hover{
+    box-shadow: 0px 0px 30px #000000;
+    transition-duration: 500ms;
+}
+
+.blokas3:hover{
+    box-shadow: 0px 0px 30px #000000;
+    transition-duration: 500ms;
+}
+
+.blokas4:hover{
+    box-shadow: 0px 0px 30px #000000;
+    transition-duration: 500ms;
+}
+
+.blokas5:hover{
+    box-shadow: 0px 0px 30px #000000;
+    transition-duration: 500ms;
+}
+
+.blokas6:hover{
+    box-shadow: 0px 0px 30px #000000;
+    transition-duration: 500ms;
+}
+
+div{
+    margin: 0 auto;
+    box-shadow: 2 2 15 black;
+}
+
+.blokas-bloke1{
+    padding: 0px 32px 36px 32px;
+    gap: 16px;
+    margin: 0px 0px 0px 0px;
+}

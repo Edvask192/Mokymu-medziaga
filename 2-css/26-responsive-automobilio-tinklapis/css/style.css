@@ -1,0 +1,85 @@
+#page-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header sekcija */
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header p {
+  color: black;
+  font-family: "Poppins", "Sans-serif";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  display: flex;
+  flex-direction: column;
+  place-self: center start;
+}
+
+header p span {
+  color: #e7852b;
+}
+
+header nav ul {
+  display: flex;
+  gap: 30px;
+}
+
+header nav ul li a {
+  color: black;
+}
+
+header nav ul li {
+  list-style: none;
+}
+
+header nav ul li a {
+  color: black;
+  text-decoration: none;
+  border-radius: 15px;
+  font-family: "Inter", "Sans-serif";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+header nav ul li a:hover {
+  background-color: #e7852b;
+  padding: 5px 5px;
+  border-radius: 15px;
+}
+
+
+
+/* Main sekcija */
+
+
+#welcome-page-container{
+    display: flex;
+}
+
+.welcome-page-title{
+    font-family: 'Poppins';
+    font-weight: 600;
+    size: 82px;
+    line-height: 90px;
+    color: black;
+
+}
+
+.welcome-page-text{
+    font-family: 'Poppins';
+    font-weight: 700;
+    size: 32px;
+    line-height: 48px;
+    color: #E7852B;
+}
+
+.orange-beatle-img{
+    width: 50%;
+}

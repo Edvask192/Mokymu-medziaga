@@ -1,0 +1,35 @@
+
+.container{
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    color: white;
+    text-align: center;
+}
+
+.container span{
+    top: 50%;
+    margin: auto;
+}
+
+
+
+/*
+h2{
+    background-color: blue;
+    color: white;
+}
+
+h1{
+    color: white;
+    background-color: black;
+}
+
+body{
+    background-color: grey;
+}
+
+.background-white{
+background-color: white;
+}

@@ -1,0 +1,103 @@
+/* GENERAL */
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+/* NAV */
+
+nav.navbar {
+  padding: 20px 0;
+}
+nav .navbar-brand {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30px;
+  color: #878b9b;
+}
+nav .navbar-nav .nav-item {
+  margin: 0 20px;
+}
+nav .navbar-nav .nav-item .nav-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #404445;
+}
+nav .navbar-nav .nav-item:first-child {
+  margin-left: 0;
+}
+nav .navbar-nav .nav-item:last-child {
+  margin-right: 0;
+}
+nav .navbar-nav .nav-item .active,
+nav .navbar-nav .nav-item .nav-link:hover {
+  color: #43c45f;
+}
+
+/* HEADER */
+
+header {
+  text-align: center;
+  background-image: url("../img/landing-page-table-photo.png");
+  font-family: "Roboto";
+  color: white;
+  height: calc(100vh - 100px);
+  padding-top: 300px;
+}
+
+header .row h1 {
+  font-size: 70px;
+  font-weight: 500;
+  line-height: 82px;
+  color: white;
+}
+
+header .container .row p {
+  color: #d5d7d8;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 30px;
+  color: rgb(213, 215, 216, 1);
+  margin-bottom: 50px;
+}
+
+header .container .row .btn {
+  background-color: #43c45f;
+  border-radius: 5px;
+  padding: 3px 45px;
+  color: white;
+}
+
+/* INFO */
+
+.row .col-6 svg {
+    margin-top: 30px;
+    margin-left: 20px;
+     color: #49C0FC;
+     
+}
+
+.row .col-6 h1 {
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25.78px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.row .col-6 p {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20.35px;
+  text-align: left;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+
+.col-6 img {
+    width: 400px;
+}

@@ -1,0 +1,43 @@
+@media screen and (max-width: 767px) {
+
+
+    header {
+        width: auto;
+        height: 300px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header p {
+        font-size: 20px;
+        text-align: center;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .search-input-container {
+        width: 300px;
+        text-align: center;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-right-side{
+        margin: 0 auto;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navigation-icons-container{
+        margin: 0 auto;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+}

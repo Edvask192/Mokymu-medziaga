@@ -1,0 +1,41 @@
+.eile1, .eile2, .eile3, .eile4{
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+
+}
+
+.eile1, .eile3{
+    background-color: #fea400;
+}
+
+.eile2, .eile4{
+    background-color: #fe4500;
+}
+
+.eile2 p{
+    background-color: white;
+    margin: 15px;
+    width: 30%;
+}
+
+.eile3{
+    justify-content: center;
+}
+
+.eile3 p{
+    padding: 15px;
+    width: 30%;
+    background-color: white;
+}
+
+.eile4 p{
+    background-color: #fea400;
+    padding: 15px;
+    margin: 15px;
+    align-self: stretch;
+}
+
+.eile4{
+    justify-content: space-between;
+}

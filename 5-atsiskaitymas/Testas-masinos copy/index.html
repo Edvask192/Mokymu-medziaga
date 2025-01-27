@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="FONTS/Plus-Jakarta_sans.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/styles.css">
+
+    <link rel="stylesheet" href="CSS/phone.css">
+
+</head>
+
+<body>
+
+
+
+    <!-- NAVIGATION BAR --><!-- NAVIGATION BAR --><!-- NAVIGATION BAR --><!-- NAVIGATION BAR -->
+
+
+
+    <header>
+
+        <div class="header-left-side">
+            <p>morent</p>
+            <div class="search-input-container">
+                <i class="bi bi-search search-icon"></i>
+                <input id="navigation-search-box" type="text" placeholder="Search something here">
+                <i class="bi bi-sliders settings-icon"></i>
+            </div>
+        </div>
+
+        <div class="header-right-side">
+            <div class="navigation-icons-container">
+                <div class="navigation-icon-circle">
+                    <i class="bi bi-heart-fill"></i>
+                </div>
+                <div class="navigation-icon-circle">
+                    <i class="bi bi-bell-fill"></i>
+                </div>
+                <div class="navigation-icon-circle">
+                    <i class="bi bi-gear-fill"></i>
+                </div>
+                <img src="IMG/Header/Profile-picture.png" alt="Profile-picture">
+            </div>
+        </div>
+
+    </header>
+
+
+
+    <!-- MAIN --><!-- MAIN --><!-- MAIN --><!-- MAIN --><!-- MAIN --><!-- MAIN --><!-- MAIN -->
+
+
+
+
+
+    <!-- Main upper section -->
+
+
+
+    <main>
+
+        <div class="upper-main-section-container">
+
+            <div class="upper-advertisement-card-circles">
+                <p class="upper-advertisement-card-title">The Best Platform for Car Rental</p>
+                <p class="upper-advertisement-card-text">Ease of doing a car rental safely and reliably. Of course at a
+                    low price.</p>
+                <button class="upper-advertisement-card-button-circles">Rental Car</button>
+                <img class="card-car-photo-circles" src="IMG/Main-Top/Card-car-photo-circles.png"
+                    alt="Card-car-photo-circles">
+            </div>
+
+            <div class="upper-advertisement-card-shapes">
+                <p class="upper-advertisement-card-title">Easy way to rent a car at a low price</p>
+                <p class="upper-advertisement-card-text">Providing cheap car rental services and safe and comfortable
+                    facilities.</p>
+                <button class="upper-advertisement-card-button-shapes">Rental Car</button>
+                <img class="card-car-photo-shapes" src="IMG/Main-Top/Card-car-photo-shapes.png"
+                    alt="Card-car-photo-shapes">
+            </div>
+
+        </div>
+
+
+
+        <!-- Main Table Section -->
+
+
+
+        <div class="main-table-section-container">
+
+            <div class="main-pickup-card-container">
+                <div class="title-section">
+                    <input type="radio" id="pickup" checked>
+                    <label for="pickup">Pick-Up</label>
+                </div>
+                <div class="main-location-date-time">
+                    <div class="table-selectors">
+                        <span>Locations</span>
+                        <br>
+                        <select name="city-selector" id="city-selector">
+                            <option value="0">Select your city</option>
+                            <option value="1">Vilnius</option>
+                            <option value="2">Kaunas</option>
+                            <option value="3">Klaipėda</option>
+                        </select>
+                    </div>
+                    <img src="IMG/Main-table/table-line-vertical.png" alt="table-line-vertical">
+                    <div>
+                        <span>Date</span>
+                        <br>
+                        <select name="date-selector" id="date-selector">
+                            <option value="0">Select your date</option>
+                            <option value="1">Pirmadienis</option>
+                            <option value="2">Trečiadienis</option>
+                            <option value="3">Ketvirtadienis</option>
+                        </select>
+                    </div>
+                    <img src="IMG/Main-table/table-line-vertical.png" alt="table-line-vertical">
+                    <div>
+                        <span>Time</span>
+                        <br>
+                        <select name="time-selector" id="time-selector">
+                            <option value="0">Select your time</option>
+                            <option value="1">12:00</option>
+                            <option value="2">15:00</option>
+                            <option value="3">18:00</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="reverse-button-container">
+                <div class="main-reverse-button-container">
+                    <i class="bi bi-arrow-down-up"></i>
+                </div>
+            </div>
+
+
+            <div class="main-dropoff-card-container">
+                <div class="title-section">
+                    <input type="radio" id="dropoff" checked>
+                    <label for="dropoff">Drop-Off</label>
+                </div>
+                <div class="main-location-date-time">
+                    <div class="table-selectors">
+                        <span>Locations</span>
+                        <br>
+                        <select name="city-selector" id="city-selector">
+                            <option value="0">Select your city</option>
+                            <option value="1">Vilnius</option>
+                            <option value="2">Kaunas</option>
+                            <option value="3">Klaipėda</option>
+                        </select>
+                    </div>
+                    <img src="IMG/Main-table/table-line-vertical.png" alt="table-line-vertical">
+                    <div>
+                        <span>Date</span>
+                        <br>
+                        <select name="date-selector" id="date-selector">
+                            <option value="0">Select your date</option>
+                            <option value="1">Pirmadienis</option>
+                            <option value="2">Trečiadienis</option>
+                            <option value="3">Ketvirtadienis</option>
+                        </select>
+                    </div>
+                    <img src="IMG/Main-table/table-line-vertical.png" alt="table-line-vertical">
+                    <div>
+                        <span>Time</span>
+                        <br>
+                        <select name="time-selector" id="time-selector">
+                            <option value="0">Select your time</option>
+                            <option value="1">12:00</option>
+                            <option value="2">15:00</option>
+                            <option value="3">18:00</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <!-- Main middle Section -->
+
+
+
+        <div class="main-card-title">
+            <span class="popular-car-text">Popular Car</span>
+            <span class="view-all-button">View All</span>
+        </div>
+
+        <div class="card-container-row">
+            <div class="main-card-container">
+                <div class="upper-card-section">
+                    <div class="upper-card-section-title-text">
+                        <span class="upper-card-section-title">Koenigsegg</span>
+                        <span class="upper-card-section-text">Sport</span>
+                    </div>
+                    <div class="card-heart-icon">
+                        <i class="bi bi-heart"></i>
+                    </div>
+                </div>
+                <div class="middle-card-section">
+                    <img src="IMG/First-card-row/1-card-car.png" alt="First-card-photo" class="sport">
+                    <div class="fog-on-photo-sport"></div>
+                </div>
+                <div class="lower-card-text-sport">
+                    <div class="lower-card-text-content">
+                        <i class="bi bi-fuel-pump-fill"></i>
+                        <span class="lower-card-text-text">90L</span>
+                    </div>
+                    <div class="lower-card-text-content">
+                        <i class="bi bi-life-preserver"></i>
+                        <span class="lower-card-text-text">Manual</span>
+                    </div>
+                    <div class="lower-card-text-content">
+                        <i class="bi bi-people-fill"></i>
+                        <span class="lower-card-text-text">2 People</span>
+                    </div>
+                </div>
+                <div class="bottom-card-section">
+                    <div class="bottom-text">
+                        <span class="bottom-text-dark">$99.00/<span class="bottom-text-light">day</span></span>
+                    </div>
+                    <button class="bottom-button">Rent Now</button>
+                </div>
+            </div>
+
+
+            <div class="main-card-container">
+                <div class="upper-card-section">
+                    <div class="upper-card-section-title-text">
+                        <span class="upper-card-section-title">Nissan GT-R</span>
+                        <span class="upper-card-section-text">Sport</span>
+                    </div>
+                    <div class="card-heart-icon">
+                        <i class="bi bi-heart"></i>
+                    </div>
+                </div>
+                <div class="middle-card-section">
+                    <img src="IMG/First-card-row/2-card-car.png" alt="First-card-photo" class="sport">
+                    <div class="fog-on-photo-sport"></div>
+                </div>
+                <div class="lower-card-text-sport">
+                    <div class="lower-card-text-content">
+                        <i class="bi bi-fuel-pump-fill"></i>
+                        <span class="lower-card-text-text">80L</span>
+                    </div>
+                    <div class="lower-card-text-content">
+                        <i class="bi bi-life-preserver"></i>
+                        <span class="lower-card-text-text">Manual</span>
+                    </div>
+                    <div class="lower-card-text-content">
+                        <i class="bi bi-people-fill"></i>
+                        <span class="lower-card-text-text">2 People</span>
+                    </div>
+                </div>
+                <div class="bottom-card-section">
+                    <div class="bottom-text">
+                        <span class="bottom-text-dark">$80.00/<span class="bottom-text-light">day</span></span>
+                        <span class="bottom-text-with-line">$100.00</span>
+                    </div>
+                    <button class="bottom-button">Rent Now</button>
+                </div>
+            </div>
+
+
+            <div class="main-card-container">
+                <div class="upper-card-section">
+                    <div class="upper-card-section-title-text">
+                        <span class="upper-card-section-title">Rolls-Royce</span>
+                        <span class="upper-card-section-text">Sedan</span>
+                    </div>
+                    <div class="card-heart-icon">
+                        <i class="bi bi-heart"></i>
+                    </div>
+                </div>
+                <div class="middle-card-section">
+                    <img src="IMG/First-card-row/3-card-car.png" alt="First-card-photo" class="sport">
+                    <div class="fog-on-photo-sport"></div>
+                </div>
+                <div class="lower-card-text-sport">
+                    <div class="lower-card-text-content">
+                        <i class="bi bi-fuel-pump-fill"></i>
+                        <span class="lower-card-text-text">70L</span>
+                    </div>
+                    <div class="lower-card-text-content">
+                        <i class="bi bi-life-preserver"></i>
+                        <span class="lower-card-text-text">Manual</span>
+                    </div>
+                    <div class="lower-card-text-content">
+                        <i class="bi bi-people-fill"></i>
+                        <span class="lower-card-text-text">4 People</span>
+                    </div>
+                </div>
+                <div class="bottom-card-section">
+                    <div class="bottom-text">
+                        <span class="bottom-text-dark">$96.00/<span class="bottom-text-light">day</span></span>
+                    </div>
+                    <button class="bottom-button">Rent Now</button>
+                </div>
+            </div>
+
+
+            <div class="main-card-container">
+                <div class="upper-card-section">
+                    <div class="upper-card-section-title-text">
+                        <span class="upper-card-section-title">Nissan GT-R</span>
+                        <span class="upper-card-section-text">Sport</span>
+                    </div>
+                    <div class="card-heart-icon">
+                        <i class="bi bi-heart"></i>
+                    </div>
+                </div>
+                <div class="middle-card-section">
+                    <img src="IMG/First-card-row/2-card-car.png" alt="First-card-photo" class="sport">
+                    <div class="fog-on-photo-sport"></div>
+                </div>
+                <div class="lower-card-text-sport">
+                    <div class="lower-card-text-content">
+                        <i class="bi bi-fuel-pump-fill"></i>
+                        <span class="lower-card-text-text">80L</span>
+                    </div>
+                    <div class="lower-card-text-content">
+                        <i class="bi bi-life-preserver"></i>
+                        <span class="lower-card-text-text">Manual</span>
+                    </div>
+                    <div class="lower-card-text-content">
+                        <i class="bi bi-people-fill"></i>
+                        <span class="lower-card-text-text">2 People</span>
+                    </div>
+                </div>
+                <div class="bottom-card-section">
+                    <div class="bottom-text">
+                        <span class="bottom-text-dark">$80.00/<span class="bottom-text-light">day</span></span>
+                        <span class="bottom-text-with-line">$100.00</span>
+                    </div>
+                    <button class="bottom-button">Rent Now</button>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+        <!-- Main Card Section --><!-- Main Card Section --><!-- Main Card Section --><!-- Main Card Section -->
+
+
+
+
+        <div class="main-card-title">
+            <span class="popular-car-text">Recomendation Car</span>
+            <span class="view-all-button"></span>
+        </div>
+
+
+        <div class="card-container-row">
+
+            <div class="main-card-container">
+                <div class="upper-card-section">
+                    <div class="upper-card-section-title-text">
+                        <span class="upper-card-section-title">All New Rush</span>
+                        <span class="upper-card-section-text">SUV</span>
+                    </div>
+                    <div class="card-heart-icon">
+                        <i class="bi bi-heart"></i>
+                    </div>
+                </div>
+                <div class="middle-card-section">
+                    <img src="IMG/Main-card-rows/4-card-car.png" alt="First-card-photo" class="suv">
+                    <div class="fog-on-photo-suv"></div>
+                </div>
+                <div class="lower-card-text-suv">
+                    <div class="lower-card-text-content">
+                        <i class="bi bi-fuel-pump-fill"></i>
+                        <span class="lower-card-text-text">70L</span>
+                    </div>
+                    <div class="lower-card-text-content">
+                        <i class="bi bi-life-preserver"></i>
+                        <span class="lower-card-text-text">Manual</span>
+                    </div>
+                    <div class="lower-card-text-content">
+                        <i class="bi bi-people-fill"></i>
+                        <span class="lower-card-text-text">6 People</span>
+                    </div>
+                </div>
+                <div class="bottom-card-section">
+                    <div class="bottom-text">
+                        <span class="bottom-text-dark">$72.00/<span class="bottom-text-light">day</span></span>
+                        <span class="bottom-text-with-line">$80.00</span>
+                    </div>
+                    <button class="bottom-button">Rent Now</button>
+                </div>
+            </div>
+
+
+            <div class="main-card-container">
+                <div class="upper-card-section">
+                    <div class="upper-card-section-title-text">
+                        <span class="upper-card-section-title">CR-V</span>
+                        <span class="upper-card-section-text">SUV</span>
+                    </div>
+                    <div class="card-heart-icon">
+                        <i class="bi bi-heart"></i>
+                    </div>
+                </div>
+                <div class="middle-card-section">
+                    <img src="IMG/Main-card-rows/5-card-car.png" alt="First-card-photo" class="suv">
+                    <div class="fog-on-photo-suv"></div>
+                </div>
+                <div class="lower-card-text-suv">
+                    <div class="lower-card-text-content">
+                        <i class="bi bi-fuel-pump-fill"></i>
+                        <span class="lower-card-text-text">80L</span>
+                    </div>
+                    <div class="lower-card-text-content">
+                        <i class="bi bi-life-preserver"></i>
+                        <span class="lower-card-text-text">Manual</span>
+                    </div>
+                    <div class="lower-card-text-content">
+                        <i class="bi bi-people-fill"></i>
+                        <span class="lower-card-text-text">6 People</span>
+                    </div>
+                </div>
+                <div class="bottom-card-section">
+                    <div class="bottom-text">
+                        <span class="bottom-text-dark">$80.00/<span class="bottom-text-light">day</span></span>
+                    </div>
+                    <button class="bottom-button">Rent Now</button>
+                </div>
+            </div>
+
+
+            <div class="main-card-container">
+                <div class="upper-card-section">
+                    <div class="upper-card-section-title-text">
+                        <span class="upper-card-section-title">All New Terios</span>
+                        <span class="upper-card-section-text">SUV</span>
+                    </div>
+                    <div class="card-heart-icon">
+                        <i class="bi bi-heart"></i>
+                    </div>
+                </div>
+                <div class="middle-card-section">
+                    <img src="IMG/Main-card-rows/6-card-car.png" alt="First-card-photo" class="suv">
+                    <div class="fog-on-photo-suv"></div>
+                </div>
+                <div class="lower-card-text-suv">
+                    <div class="lower-card-text-content">
+                        <i class="bi bi-fuel-pump-fill"></i>
+                        <span class="lower-card-text-text">90L</span>
+                    </div>
+                    <div class="lower-card-text-content">
+                        <i class="bi bi-life-preserver"></i>
+                        <span class="lower-card-text-text">Manual</span>
+                    </div>
+                    <div class="lower-card-text-content">
+                        <i class="bi bi-people-fill"></i>
+                        <span class="lower-card-text-text">6 People</span>
+                    </div>
+                </div>
+                <div class="bottom-card-section">
+                    <div class="bottom-text">
+                        <span class="bottom-text-dark">$74.00/<span class="bottom-text-light">day</span></span>
+                    </div>
+                    <button class="bottom-button">Rent Now</button>
+                </div>
+            </div>
+
+
+            <div class="main-card-container">
+                <div class="upper-card-section">
+                    <div class="upper-card-section-title-text">
+                        <span class="upper-card-section-title">CR-V</span>
+                        <span class="upper-card-section-text">SUV</span>
+                    </div>
+                    <div class="card-heart-icon">
+                        <i class="bi bi-heart"></i>
+                    </div>
+                </div>
+                <div class="middle-card-section">
+                    <img src="IMG/Main-card-rows/7-card-car.png" alt="First-card-photo" class="suv">
+                    <div class="fog-on-photo-suv"></div>
+                </div>
+                <div class="lower-card-text-suv">
+                    <div class="lower-card-text-content">
+                        <i class="bi bi-fuel-pump-fill"></i>
+                        <span class="lower-card-text-text">80L</span>
+                    </div>
+                    <div class="lower-card-text-content">
+                        <i class="bi bi-life-preserver"></i>
+                        <span class="lower-card-text-text">Manual</span>
+                    </div>
+                    <div class="lower-card-text-content">
+                        <i class="bi bi-people-fill"></i>
+                        <span class="lower-card-text-text">6 People</span>
+                    </div>
+                </div>
+                <div class="bottom-card-section">
+                    <div class="bottom-text">
+                        <span class="bottom-text-dark">$80.00/<span class="bottom-text-light">day</span></span>
+                    </div>
+                    <button class="bottom-button">Rent Now</button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <div class="card-container-row">
+
+            <div class="main-card-container">
+                <div class="upper-card-section">
+                    <div class="upper-card-section-title-text">
+                        <span class="upper-card-section-title">MG ZX Exclusice</span>
+                        <span class="upper-card-section-text">Hatchback</span>
+                    </div>
+                    <div class="card-heart-icon">
+                        <i class="bi bi-heart"></i>
+                    </div>
+                </div>
+                <div class="middle-card-section">
+                    <img src="IMG/Main-card-rows/8-card-car.png" alt="First-card-photo" class="suv">
+                    <div class="fog-on-photo-suv"></div>
+                </div>
+                <div class="lower-card-text-suv">
+                    <div class="lower-card-text-content">
+                        <i class="bi bi-fuel-pump-fill"></i>
+                        <span class="lower-card-text-text">70L</span>
+                    </div>
+                    <div class="lower-card-text-content">
+                        <i class="bi bi-life-preserver"></i>
+                        <span class="lower-card-text-text">Manual</span>
+                    </div>
+                    <div class="lower-card-text-content">
+                        <i class="bi bi-people-fill"></i>
+                        <span class="lower-card-text-text">4 People</span>
+                    </div>
+                </div>
+                <div class="bottom-card-section">
+                    <div class="bottom-text">
+                        <span class="bottom-text-dark">$76.00/<span class="bottom-text-light">day</span></span>
+                        <span class="bottom-text-with-line">$80.00</span>
+                    </div>
+                    <button class="bottom-button">Rent Now</button>
+                </div>
+            </div>
+
+
+            <div class="main-card-container">
+                <div class="upper-card-section">
+                    <div class="upper-card-section-title-text">
+                        <span class="upper-card-section-title">New MG ZS</span>
+                        <span class="upper-card-section-text">SUV</span>
+                    </div>
+                    <div class="card-heart-icon">
+                        <i class="bi bi-heart"></i>
+                    </div>
+                </div>
+                <div class="middle-card-section">
+                    <img src="IMG/Main-card-rows/9-card-car.png" alt="First-card-photo" class="suv">
+                    <div class="fog-on-photo-suv"></div>
+                </div>
+                <div class="lower-card-text-suv">
+                    <div class="lower-card-text-content">
+                        <i class="bi bi-fuel-pump-fill"></i>
+                        <span class="lower-card-text-text">80L</span>
+                    </div>
+                    <div class="lower-card-text-content">
+                        <i class="bi bi-life-preserver"></i>
+                        <span class="lower-card-text-text">Manual</span>
+                    </div>
+                    <div class="lower-card-text-content">
+                        <i class="bi bi-people-fill"></i>
+                        <span class="lower-card-text-text">6 People</span>
+                    </div>
+                </div>
+                <div class="bottom-card-section">
+                    <div class="bottom-text">
+                        <span class="bottom-text-dark">$80.00/<span class="bottom-text-light">day</span></span>
+                    </div>
+                    <button class="bottom-button">Rent Now</button>
+                </div>
+            </div>
+
+
+            <div class="main-card-container">
+                <div class="upper-card-section">
+                    <div class="upper-card-section-title-text">
+                        <span class="upper-card-section-title">MG ZX Excite</span>
+                        <span class="upper-card-section-text">Hatchback</span>
+                    </div>
+                    <div class="card-heart-icon">
+                        <i class="bi bi-heart"></i>
+                    </div>
+                </div>
+                <div class="middle-card-section">
+                    <img src="IMG/Main-card-rows/8-card-car.png" alt="First-card-photo" class="suv">
+                    <div class="fog-on-photo-suv"></div>
+                </div>
+                <div class="lower-card-text-suv">
+                    <div class="lower-card-text-content">
+                        <i class="bi bi-fuel-pump-fill"></i>
+                        <span class="lower-card-text-text">90L</span>
+                    </div>
+                    <div class="lower-card-text-content">
+                        <i class="bi bi-life-preserver"></i>
+                        <span class="lower-card-text-text">Manual</span>
+                    </div>
+                    <div class="lower-card-text-content">
+                        <i class="bi bi-people-fill"></i>
+                        <span class="lower-card-text-text">4 People</span>
+                    </div>
+                </div>
+                <div class="bottom-card-section">
+                    <div class="bottom-text">
+                        <span class="bottom-text-dark">$74.00/<span class="bottom-text-light">day</span></span>
+                    </div>
+                    <button class="bottom-button">Rent Now</button>
+                </div>
+            </div>
+
+
+            <div class="main-card-container">
+                <div class="upper-card-section">
+                    <div class="upper-card-section-title-text">
+                        <span class="upper-card-section-title">New MG ZS</span>
+                        <span class="upper-card-section-text">SUV</span>
+                    </div>
+                    <div class="card-heart-icon">
+                        <i class="bi bi-heart"></i>
+                    </div>
+                </div>
+                <div class="middle-card-section">
+                    <img src="IMG/Main-card-rows/10-card-car.png" alt="First-card-photo" class="suv">
+                    <div class="fog-on-photo-suv"></div>
+                </div>
+                <div class="lower-card-text-suv">
+                    <div class="lower-card-text-content">
+                        <i class="bi bi-fuel-pump-fill"></i>
+                        <span class="lower-card-text-text">80L</span>
+                    </div>
+                    <div class="lower-card-text-content">
+                        <i class="bi bi-life-preserver"></i>
+                        <span class="lower-card-text-text">Manual</span>
+                    </div>
+                    <div class="lower-card-text-content">
+                        <i class="bi bi-people-fill"></i>
+                        <span class="lower-card-text-text">6 People</span>
+                    </div>
+                </div>
+                <div class="bottom-card-section">
+                    <div class="bottom-text">
+                        <span class="bottom-text-dark">$80.00/<span class="bottom-text-light">day</span></span>
+                    </div>
+                    <button class="bottom-button">Rent Now</button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <!-- Main Bottom Section --> <!-- Main Bottom Section --> <!-- Main Bottom Section -->
+        <!-- Main BottomSection -->
+
+
+
+
+
+
+        <div class="main-card-title main-card-title-bottom">
+            <span class="popular-car-text"></span>
+            <button class="show-more-car-button">Show more car</button>
+            <span class="car-number-text">120 Car</span>
+        </div>
+
+    </main>
+
+
+
+
+    <!-- Footer Section --><!-- Footer Section --><!-- Footer Section --><!-- Footer Section --><!-- Footer Section -->
+
+
+
+
+    <footer id="footer-container">
+
+        <div class="footer-upper-container">
+            <div class="footer-upper-left-section">
+                <span class="footer-title">MORENT</span>
+                <span class="footer-text">Our vision is to provide convenience and help increase your sales
+                    business.</span>
+            </div>
+            <div class="footer-upper-right-section">
+                <div class="footer-right-column-container">
+                    <span class="footer-right-column-title">About</span>
+                    <span class="footer-right-column-text">How it works</span>
+                    <span class="footer-right-column-text">Featured</span>
+                    <span class="footer-right-column-text">Partnership</span>
+                    <span class="footer-right-column-text">Bussiness Relation</span>
+                </div>
+                <div class="footer-right-column-container">
+                    <span class="footer-right-column-title">Community</span>
+                    <span class="footer-right-column-text">Events</span>
+                    <span class="footer-right-column-text">Blog</span>
+                    <span class="footer-right-column-text">Podcast</span>
+                    <span class="footer-right-column-text">Invite a friend</span>
+                </div>
+                <div class="footer-right-column-container">
+                    <span class="footer-right-column-title">Socials</span>
+                    <span class="footer-right-column-text">Discord</span>
+                    <span class="footer-right-column-text">Instagram</span>
+                    <span class="footer-right-column-text">Twitter</span>
+                    <span class="footer-right-column-text">Facebook</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-line-container">
+            <img src="IMG/Footer/Line-vertical.png" alt="Footer-line">
+        </div>
+
+        <div class="footer-bottom-container">
+            <span class="footer-bottom-title">©2022 MORENT. All rights reserved</span>
+            <div class="footer-bottom-right-container">
+                <span class="footer-bottom-right-text">Privacy & Policy</span>
+                <span class="footer-bottom-right-text">Terms & Condition</span>
+            </div>
+        </div>
+
+    </footer>
+
+
+    <script src="JS/bootstrap.min.js"></script>
+</body>
+
+</html>

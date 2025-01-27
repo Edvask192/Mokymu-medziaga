@@ -1,0 +1,6 @@
+/* NAVIGATION BAR */
+
+.container-fluid .navbar-brand{
+    text-transform: uppercase;
+    color: #3563E9;
+}

@@ -1,0 +1,112 @@
+body {
+    background-image: url(images/background.jpg);
+    background-size: auto;
+}
+
+main {
+    width: 750px;
+    height: 550px;
+    background-color: white;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding: 30px 30px 30px 30px;
+    display: grid;
+    place-items: center;
+}
+
+img {
+    width: 180px;
+    height: 90px;
+    border: 7px #5C2C55;
+}
+
+header {
+    font-family: Niramit;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+}
+
+footer {
+    font-family: Niramit;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.6);
+    padding: 0px 120px;
+}
+
+.paragraph-login {
+    font-family: Niramit;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.4px;
+    text-align: left;
+
+}
+
+button {
+    width: 137px;
+    height: 48px;
+    border-radius: 30px 30px 30px 30px;
+    border: #02B4E2;
+    background: #02B4E2;
+    font-family: Niramit;
+
+}
+
+button:hover {
+    color: rgb(0, 0, 0, 0.5);
+}
+
+button:active {
+    color: white;
+    background-color: rgb(2, 180, 226, 0.7);
+}
+
+.content-table {
+    display: grid;
+    gap: 15px;
+    justify-items: start;
+}
+
+#email-text {
+    width: 49px;
+    height: 24px;
+    font-family: Niramit;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+}
+
+#password-text {
+    width: 87px;
+    height: 24px;
+    font-family: Niramit;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+}
+
+#email-container {
+    width: 324px;
+    height: 50px;
+    border-radius: 15px;
+    border-color: rgb(128, 128, 128, 0.3);
+    text-indent: 10px;
+    margin-top: 8px;
+}
+
+#password-container {
+    width: 324px;
+    height: 50px;
+    border-radius: 15px;
+    border-color: rgb(128, 128, 128, 0.3);
+    text-indent: 10px;
+    margin-top: 8px;
+}
