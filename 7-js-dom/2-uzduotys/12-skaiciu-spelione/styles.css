@@ -1,0 +1,7 @@
+body {
+    background-image: url(IMG/background.jpg);
+}
+
+#input-container {
+    display: list-item;
+}
