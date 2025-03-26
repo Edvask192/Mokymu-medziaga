@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Dropdown</title>
+</head>
+<body>
+
+    <label for="dynamicSelect">Choose an option:</label>
+    <select id="dynamicSelect">
+        <option value="">Select an option</option>
+    </select>
+
+    <script>
+        // List of dynamic options
+        const items = ["Option 1", "Option 2", "Option 3", "Option 4"];
+
+        // Get the dropdown element
+        const dropdown = document.getElementById("dynamicSelect");
+
+        Populate the dropdown
+        items.forEach(item => {
+            let option = document.createElement("option");
+            option.text = item;
+            option.value = item.toLowerCase().replace(/\s+/g, "-");
+            dropdown.add(option);
+        });
+    </script>
+
+</body>
+</html>

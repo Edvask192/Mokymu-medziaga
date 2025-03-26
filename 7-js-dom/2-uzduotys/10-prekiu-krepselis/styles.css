@@ -83,3 +83,13 @@ hr.basic-line {
     font-weight: 700;
     line-height: 24px;
 }
+
+.product-list .delete-item {
+    border: unset;
+    background: unset;
+}
+
+.product-list .delete-item:hover {
+background: lightgrey;
+border-radius: 3px;
+}
