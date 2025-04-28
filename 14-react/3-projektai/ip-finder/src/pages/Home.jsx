@@ -1,11 +1,9 @@
 import { useEffect, useState } from "react";
-import { MAP_API_KEY } from "../utils/constants";
 import Map, { Marker } from 'react-map-gl/mapbox';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import "./Home.css"
-import React from "react";
-import { IoColorFill, IoPinSharp } from "react-icons/io5";
 import MapContainer from "../components/MapContainer";
+import LabelWithTitle from "../components/LabelWithTitle";
 
 
 const Home = () => {
@@ -44,20 +42,20 @@ const Home = () => {
           longitude: data.longitude
         });
       })
-    
-    .catch(() => {
-      //fake data
-      setIpDetails({
-        ip: '78.60.184.222',
-        city: 'Randomas Miestas',
-        org: 'TEO',
-        country_name: 'Randomas Kauntris'
-      });
-      setCoordinates({
-        latitude: 19.932344,
-        longitude: 78.254511
-      });
-    })
+
+      .catch(() => {
+        //fake data
+        setIpDetails({
+          ip: '78.60.184.222',
+          city: 'Randomas Miestas',
+          org: 'TEO',
+          country_name: 'Randomas Kauntris'
+        });
+        setCoordinates({
+          latitude: 19.932344,
+          longitude: 78.254511
+        });
+      })
   }, []);
 
   useEffect(() => {
@@ -71,23 +69,39 @@ const Home = () => {
 
   return (
     <>
-      <h1>example</h1>
-      <h2>example</h2>
-      <h4>example</h4>
-      <h1> IP adress finder </h1>
-      <p>What is my IP adress?</p>
-      <p>{ipDetails?.ip}</p>
-      <p>Location:</p>
-      <p>
-        {ipDetails?.city}, {ipDetails?.country_name}
-      </p>
-      <p>Internet provider:</p>
-      <p>{ipDetails?.org}</p>
+      <h1>example basis</h1>
+      <LabelWithTitle
+        title='IP adress finder'
+        type='primary'
+        align='center'
+      />
+
+      <LabelWithTitle
+        title='What is my IP adress?'
+        type='secondary'
+        body={ipDetails.ip}
+        align='left'
+      />
+
+      <LabelWithTitle
+        title='Location'
+        type='default'
+        body={ipDetails.city + ', ' + ipDetails.country_name}
+        align='left'
+      />
+
+      <LabelWithTitle
+        title='Internet provider'
+        type='primary'
+        body={ipDetails.org}
+        align='right'
+      />
+
 
       <div className="mapContainer">
         <MapContainer
           latitude={coordinates.latitude}
-          longitude={coordinates.longitude}/>
+          longitude={coordinates.longitude} />
       </div>
     </>
   );
