@@ -43,6 +43,7 @@ const Home = () => {
         });
       })
 
+
       .catch(() => {
         //fake data
         setIpDetails({
@@ -58,6 +59,7 @@ const Home = () => {
       })
   }, []);
 
+
   useEffect(() => {
     const tmpViewport = { ...viewPort };
     tmpViewport.latitude = coordinates.latitude;
@@ -67,9 +69,9 @@ const Home = () => {
     setViewPort(tmpViewport);
   }, [coordinates]);
 
+
   return (
-    <>
-      <h1>example basis</h1>
+    <div className="home-container">
       <LabelWithTitle
         title='IP adress finder'
         type='primary'
@@ -94,16 +96,15 @@ const Home = () => {
         title='Internet provider'
         type='primary'
         body={ipDetails.org}
-        align='right'
+        align='left'
       />
-
 
       <div className="mapContainer">
         <MapContainer
           latitude={coordinates.latitude}
           longitude={coordinates.longitude} />
       </div>
-    </>
+    </div>
   );
 };
 
