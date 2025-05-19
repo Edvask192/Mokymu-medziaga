@@ -1,0 +1,67 @@
+.header-fullscreen {
+  height: calc(100vh - 76px); // Subtract navbar height
+  display: flex;
+  align-items: center;
+  background: linear-gradient(rgba(92, 169, 251, 0.8), rgba(99, 114, 255, 0.8)), url('/header/intro-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(173, 181, 189, 0.1) 0%, rgba(173, 181, 189, 0) 70%);
+    // animation: rotate 10s linear infinite;
+  }
+
+  .container {
+    position: relative;
+    z-index: 1;
+  }
+
+  h1 {
+    transform: translateY(20px);
+    opacity: 0;
+    animation: fadeInUp 0.8s ease forwards;
+  }
+
+  p {
+    transform: translateY(20px);
+    opacity: 0;
+    animation: fadeInUp 0.8s ease 0.2s forwards;
+  }
+
+  .btn {
+    transform: translateY(20px);
+    opacity: 0;
+    animation: fadeInUp 0.8s ease 0.4s forwards;
+    transition: all 0.3s ease;
+
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+  }
+}
+
+@keyframes fadeInUp {
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

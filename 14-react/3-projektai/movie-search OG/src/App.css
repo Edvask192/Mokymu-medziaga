@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+    color: black;
+}
+
+#SearchBox {
+    width: 50%;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+#SearchBox:hover {
+    transform: scale(1.01);
+    transition: 0.2s;
+}
+
+
+body {
+    background-color: #498fba;
+    background: linear-gradient(to right, #385fba, #4697ca);
+}

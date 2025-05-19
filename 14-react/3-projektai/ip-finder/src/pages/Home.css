@@ -1,6 +1,6 @@
 .home-container {
     max-width: 600px;
-    margin: 2rem auto;
+    margin: 0 auto;
     padding: 1rem;
     display: flex;
     flex-direction: column;
@@ -14,3 +14,13 @@
     overflow: hidden;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
+
+.loader {
+    margin: auto;
+    width: 60px;
+    aspect-ratio: 4;
+    background: radial-gradient(circle closest-side,#000 90%,#0000) 0/calc(100%/3) 100% space;
+    clip-path: inset(0 100% 0 0);
+    animation: l1 1s steps(4) infinite;
+}
+@keyframes l1 {to{clip-path: inset(0 -34% 0 0)}}
